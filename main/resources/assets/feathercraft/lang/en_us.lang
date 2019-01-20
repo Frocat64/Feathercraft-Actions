@@ -1,5 +1,12 @@
 itemGroup.feathercrafttab=Feathercraft
 
+tile.sheep_fence.name=Sheep Fence
+tile.sheep_fence_half.name=Low Sheep Fence
+tile.wire_mesh_fence_green.name=Green Wire Mesh Fence
+tile.wire_mesh_fence_green_half.name=Low Green Wire Mesh Fence
+tile.wire_mesh_fence_zinc.name=Zinc Wire Mesh Fence
+tile.wire_mesh_fence_zinc_half.name=Low Zinc Wire Mesh Fence
+
 item.cooked_duck_meat.name=Cooked Duck Meat
 item.cooked_goose_meat.name=Cooked Goose Meat
 item.cooked_prime_duck_meat.name=Cooked Prime Duck Meat
