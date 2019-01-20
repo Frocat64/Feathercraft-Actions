@@ -1,6 +1,0 @@
-{
-   "parent": "block/cube_all",
-   "textures": {
-       "all": "feathercraft:blocks/wire_mesh_fence_zinc"
-   }
-}
