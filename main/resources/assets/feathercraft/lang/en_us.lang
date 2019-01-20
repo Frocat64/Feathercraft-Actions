@@ -1,0 +1,16 @@
+itemGroup.feathercrafttab=Feathercraft
+
+item.cooked_duck_meat.name=Cooked Duck Meat
+item.cooked_goose_meat.name=Cooked Goose Meat
+item.cooked_prime_duck_meat.name=Cooked Prime Duck Meat
+item.cooked_prime_goose_meat.name=Cooked Prime Goose Meat
+item.duck_egg.name=Duck Egg
+item.duck_feather.name=Duck Feather
+item.duck_meat.name=Duck Meat
+item.goose_egg.name=Goose Egg
+item.goose_feather.name=Goose Feather
+item.goose_meat.name=Goose Meat
+item.growup_feed.name=Mixed Feed
+item.prime_duck_meat.name=Prime Duck Meat
+item.prime_goose_meat.name=Prime Goose Meat
+item.sunflower_seeds.name=Sunflower Seeds
