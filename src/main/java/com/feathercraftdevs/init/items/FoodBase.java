@@ -1,7 +1,6 @@
 package com.feathercraftdevs.init.items;
 
 import com.feathercraftdevs.FeatherCraftMain;
-import com.feathercraftdevs.init.FeatherCraftItems;
 
 import net.minecraft.item.ItemFood;
 

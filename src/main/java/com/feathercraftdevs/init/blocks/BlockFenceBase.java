@@ -1,8 +1,7 @@
 package com.feathercraftdevs.init.blocks;
 
 import com.feathercraftdevs.FeatherCraftMain;
-import com.feathercraftdevs.init.FeatherCraftBlocks;
-import com.feathercraftdevs.init.FeatherCraftItems;
+import com.feathercraftdevs.init.items.FeatherCraftItems;
 
 import net.minecraft.block.BlockPane;
 import net.minecraft.block.material.Material;

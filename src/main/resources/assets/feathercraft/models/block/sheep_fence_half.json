@@ -1,6 +1,0 @@
-{
-   "parent": "block/cube_all",
-   "textures": {
-       "all": "feathercraft:blocks/sheep_fence_half"
-   }
-}

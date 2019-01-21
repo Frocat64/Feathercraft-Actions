@@ -1,12 +1,9 @@
-package com.feathercraftdevs.init;
+package com.feathercraftdevs.init.items;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.feathercraftdevs.FeatherCraftMain;
-import com.feathercraftdevs.init.items.FoodBase;
-import com.feathercraftdevs.init.items.FoodEffectBase;
-import com.feathercraftdevs.init.items.ItemBase;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.MobEffects;

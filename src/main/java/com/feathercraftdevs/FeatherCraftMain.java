@@ -1,6 +1,6 @@
 package com.feathercraftdevs;
 
-import com.feathercraftdevs.init.FeatherCraftItems;
+import com.feathercraftdevs.init.items.FeatherCraftItems;
 import com.feathercraftdevs.proxy.CommonProxy;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -18,7 +18,7 @@ public class FeatherCraftMain {
 
 	public static final String MODID = "feathercraft";
 	public static final String NAME = "Feathercraft for Animania";
-	public static final String VERSION = "0.0.02";
+	public static final String VERSION = "0.1.6";
 	public static final String CLIENTPROXY = "com.feathercraftdevs.proxy.ClientProxy";
 	public static final String SERVERPROXY = "com.feathercraftdevs.proxy.CommonProxy";
 	public static final CreativeTabs feathercrafttab = new CreativeTabs("feathercrafttab") {

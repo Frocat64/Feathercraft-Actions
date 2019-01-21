@@ -1,5 +1,32 @@
 {
-    "variants": {
-        "normal": { "model": "feathercraft:wire_mesh_fence_zinc_half" }
-    }
+    "multipart": [
+        {   "apply": { "model": "feathercraft:wire_mesh_fence_zinc_post_ends" }},
+        {   "when": { "north": false, "east": false, "south": false, "west": false },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_post" }
+        },
+        {   "when": { "north": true, "east": false, "south": false, "west": false },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_cap" }
+        },
+        {   "when": { "north": false, "east": true, "south": false, "west": false },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_cap", "y": 90 }
+        },
+        {   "when": { "north": false, "east": false, "south": true, "west": false },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_cap_alt" }
+        },
+        {   "when": { "north": false, "east": false, "south": false, "west": true },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_cap_alt", "y": 90 }
+        },
+        {   "when": { "north": true },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_side" }
+        },
+        {   "when": { "east": true },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_side", "y": 90 }
+        },
+        {   "when": { "south": true },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_side_alt" }
+        },
+        {   "when": { "west": true },
+            "apply": { "model": "feathercraft:wire_mesh_fence_zinc_side_alt", "y": 90 }
+        }
+    ]
 }
