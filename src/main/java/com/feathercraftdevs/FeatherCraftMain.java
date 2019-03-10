@@ -1,7 +1,9 @@
 package com.feathercraftdevs;
 
+import com.feathercraftdevs.init.EntityInit;
 import com.feathercraftdevs.init.items.FeatherCraftItems;
 import com.feathercraftdevs.proxy.CommonProxy;
+import com.feathercraftdevs.proxy.RenderHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -18,7 +20,7 @@ public class FeatherCraftMain {
 
 	public static final String MODID = "feathercraft";
 	public static final String NAME = "Feathercraft for Animania";
-	public static final String VERSION = "0.1.6";
+	public static final String VERSION = "0.2.0";
 	public static final String CLIENTPROXY = "com.feathercraftdevs.proxy.ClientProxy";
 	public static final String SERVERPROXY = "com.feathercraftdevs.proxy.CommonProxy";
 	public static final CreativeTabs feathercrafttab = new CreativeTabs("feathercrafttab") {
@@ -39,6 +41,8 @@ public class FeatherCraftMain {
 	public static void preInit(FMLPreInitializationEvent event) {
 		proxy.preInit(event);
 		proxy.registerRenders();
+		EntityInit.registerEntities();
+		RenderHandler.registerEntityRenders();
 	}
 
 	@EventHandler

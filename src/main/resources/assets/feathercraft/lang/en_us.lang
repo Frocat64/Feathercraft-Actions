@@ -1,5 +1,7 @@
 itemGroup.feathercrafttab=Feathercraft
 
+entity.wood_duck.name=Wood Duck
+
 tile.sheep_fence.name=Sheep Fence
 tile.sheep_fence_half.name=Low Sheep Fence
 tile.wire_mesh_fence_green.name=Green Wire Mesh Fence
