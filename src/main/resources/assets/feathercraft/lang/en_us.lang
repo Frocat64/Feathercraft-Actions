@@ -1,6 +1,17 @@
 itemGroup.feathercrafttab=Feathercraft
 
+entity.king_eider_duck.name=King Eider Duck
+entity.pekin_duck.name=Pekin Duck
+entity.wild_duck.name=Wild Duck
 entity.wood_duck.name=Wood Duck
+entity.canada_goose.name=Canadian Goose
+entity.chinese_goose.name=Chinese Goose
+entity.grey_goose.name=Grey Goose
+entity.white_goose.name=White Goose
+entity.black_white_muscovy.name=Black and White Muscovy
+entity.brown_white_muscovy.name=Brown and White Muscovy
+entity.grey_muscovy.name=Grey Muscovy
+entity.white_muscovy.name=White Muscovy
 
 tile.sheep_fence.name=Sheep Fence
 tile.sheep_fence_half.name=Low Sheep Fence
