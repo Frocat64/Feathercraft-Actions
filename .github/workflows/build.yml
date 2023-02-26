@@ -12,4 +12,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
       - name: Building
-        run: sudo apt install gradle && gradle setupDecompWorkspace && gradle eclipse
+        run: sudo apt install gradle && ./gradlew setupDevWorkspace && ./gradlew eclipse
