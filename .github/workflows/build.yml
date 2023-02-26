@@ -12,6 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
       - name: Building
-        run: chmod gradlew +x
+        run: chmod +x gradlew
              ./gradlew setupDecompWorkspace
              ./gradlew eclipse
