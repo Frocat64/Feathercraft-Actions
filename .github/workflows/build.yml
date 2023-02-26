@@ -12,4 +12,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
       - name: Building
-        run: sudo apt install gradle && chmod +x gradlew && ./gradlew setupDevWorkspace && ./gradlew eclipse
+        run: sudo apt install gradle && chmod +x gradlew && gradle-wrapper --gradle-version=5.11 && ./gradlew setupDevWorkspace && ./gradlew eclipse
