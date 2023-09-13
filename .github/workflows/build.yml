@@ -12,4 +12,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
       - name: Building
-        run: sudo apt install gradle openjdk-8-jdk openjdk-8-demo openjdk-8-doc openjdk-8-jre-headless openjdk-8-source && gradle setupDevWorkspace && gradle eclipse
+        run: sudo apt install openjdk-8-jdk openjdk-8-demo openjdk-8-doc openjdk-8-jre-headless openjdk-8-source && ./gradle setupDevWorkspace && ./gradle eclipse
